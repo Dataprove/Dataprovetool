@@ -17,6 +17,6 @@ VERSION INFO:
     - Actions CALCULATEFROM(component,Datatype1,Datatype2) and CALCULATEFROMAT(component,Datatype1,Datatype2,Time(t)) are added to specify a piece of data can be calculated from another piece of data.
     - Improved the notification text/presentation for the verification results.
     - The TEXTMODE saving also includes the list of relationships between main and sub-components, which will be then loaded in the program when the arch .txt file is opened.
-    - Added more TEXTMODE examples in "Pol and Arch files used in the manual-v0.9.6.zip" inside DataProVe-v0.9.6-all-in-one-blind.zip (including the example with CALCULATEFROMAT)
-    - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProVe-v0.9.6-all-in-one-blind.zip).
-    - DT3P and PEP-IMP specs. for v0.9.6. 
+    - Added more TEXTMODE examples in "Pol and Arch files used in the manual-v0.9.6.zip" inside DataProve-v0.9.6-all-in-one-blind.zip (including the example with CALCULATEFROMAT)
+    - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip).
+    - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
