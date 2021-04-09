@@ -1,5 +1,9 @@
 # Dataprovetool
 
+The picture below explain the rationale and concept behind the DataProVe framework, which somewhat indicates the decision on the choice of languages variants and verification engine.
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 The architecture and policy files used in the Section 7 of paper can be found in <b>"(Blind) For Peer Review - Policy and Arch files with screenshot.zip"</b>.  
 
 The tool used in the verification of the files is <b>DataProVe-v0.9.4-blind.pyc </b>.   
