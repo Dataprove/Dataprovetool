@@ -1,6 +1,6 @@
 # Dataprovetool
 
-The picture below explain the rationale and concept behind the DataProVe framework, which somewhat indicates the decision on the choice of languages variants and verification engine.
+The picture below depicts the rationale and concept behind the DataProVe framework, which also somewhat indicates the decision on the choice of languages variants and verification engine.
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/DataProVe%20framework.png?raw=true)
 
