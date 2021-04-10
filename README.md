@@ -31,4 +31,5 @@ VERSION INFO:
     - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
 
 VIDEOS: 
-- Videos about the GUI examples : https://youtu.be/0UlmTfseTUw
+- Video about the GUI examples : https://youtu.be/0UlmTfseTUw
+- Video about verifying the two contact tracing approaches: https://youtu.be/IAiSS2Ol8OI
