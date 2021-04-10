@@ -1,10 +1,13 @@
 # Dataprovetool
 
+CONCEPT: 
+
 The picture below depicts the rationale and concept behind the DataProVe framework, which also somewhat indicates the decision on the choice of languages variants and verification engine.
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/DataProVe%20framework.png?raw=true)
 
 
+INFORMATION: 
 
 The architecture and policy files used in the Section 7 of paper can be found in <b>"(Blind) For Peer Review - Policy and Arch files with screenshot.zip"</b>.  
 
