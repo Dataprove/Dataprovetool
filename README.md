@@ -4,6 +4,8 @@ The picture below depicts the rationale and concept behind the DataProVe framewo
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/DataProVe%20framework.png?raw=true)
 
+
+
 The architecture and policy files used in the Section 7 of paper can be found in <b>"(Blind) For Peer Review - Policy and Arch files with screenshot.zip"</b>.  
 
 The tool used in the verification of the files is <b>DataProVe-v0.9.4-blind.pyc </b>.   
@@ -24,3 +26,6 @@ VERSION INFO:
     - Added more TEXTMODE examples in "Pol and Arch files used in the manual-v0.9.6.zip" inside DataProve-v0.9.6-all-in-one-blind.zip (including the example with CALCULATEFROMAT)
     - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip).
     - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
+
+VIDEOS: 
+- Videos about the GUI examples : https://youtu.be/0UlmTfseTUw
