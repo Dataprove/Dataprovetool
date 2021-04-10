@@ -30,8 +30,29 @@ VERSION INFO:
     - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip).
     - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
 
-CODE EXCERPT:
+
 VIDEOS (blind): 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
 - Video about verifying the two contact tracing approaches: https://youtu.be/IAiSS2Ol8OI
+
+CODE EXCERPT:
+- Part of the unification procedure: 
+    
+    ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-part%20of%20unify.png?raw=true)
+    
+- Part of the cryptographic unification: 
+
+    ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-Crypto-part.png?raw=true)
+    
+- Part of the verification against architecture actions: 
+
+     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-checkagainstArch.png?raw=true)
+
+- Part of the verification func: 
+
+    ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-Verif-part.png?raw=true)
+   
+- Ruleset: 
+    ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-ruleset.png?raw=true)
+
