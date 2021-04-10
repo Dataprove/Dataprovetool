@@ -49,10 +49,11 @@ CODE EXCERPT:
 
      ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-checkagainstArch.png?raw=true)
 
-- Part of the verification func: 
+- Part of the verification (proof tree) process: 
 
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-Verif-part.png?raw=true)
    
 - Ruleset: 
+
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-ruleset.png?raw=true)
 
