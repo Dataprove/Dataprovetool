@@ -1,11 +1,11 @@
-CONCEPT/VISION OF THE FRAMEWORK: 
+**CONCEPT/VISION OF THE FRAMEWORK:**
 
 The picture below depicts the rationale and concept behind the DataProVe framework, which also somewhat indicates the decision on the choice of languages variants and verification engine.
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/DataProVe-framework.png?raw=true)
 
 
-INFORMATION: 
+**INFORMATION:** 
 
 The architecture and policy files used in the Section 7 of paper can be found in <b>"(Blind) For Peer Review - Policy and Arch files with screenshot.zip"</b>.  
 
@@ -29,12 +29,12 @@ VERSION INFO:
     - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
 
 
-VIDEOS (blind): 
+**VIDEOS (blind):** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
 - Video about verifying the two contact tracing approaches: https://youtu.be/IAiSS2Ol8OI
 
-CODE EXCERPT:
+**CODE EXCERPT:**
 - Part of the unification procedure (where MAPRECORD keeps track of the mapping resulted from unification steps): 
     
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-part%20of%20unify.png?raw=true)
