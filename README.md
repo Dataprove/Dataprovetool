@@ -51,7 +51,7 @@ CODE EXCERPT:
 
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-Verif-part.png?raw=true)
    
-- Ruleset: 
+- Part of ruleset: 
 
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-ruleset.png?raw=true)
 
