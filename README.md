@@ -35,7 +35,7 @@ VIDEOS (blind):
 - Video about verifying the two contact tracing approaches: https://youtu.be/IAiSS2Ol8OI
 
 CODE EXCERPT:
-- Part of the unification procedure: 
+- Part of the unification procedure (where MAPRECORD keeps track of the mapping resulted from unification steps): 
     
     ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Code%20excerpt/Code-part%20of%20unify.png?raw=true)
     
