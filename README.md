@@ -1,4 +1,4 @@
-CONCEPT: 
+CONCEPT/VISION OF THE FRAMEWORK: 
 
 The picture below depicts the rationale and concept behind the DataProVe framework, which also somewhat indicates the decision on the choice of languages variants and verification engine.
 
