@@ -15,6 +15,14 @@ The tool used in the verification of the files is <b>DataProVe-v0.9.4-blind.pyc 
 - The User Manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 VERSION INFO: 
+- <b>Version 0.9.8 uploaded</b>:
+    - The tool now supports any number of layers of nested cryptographic functions/encryption inside a datatype.
+    - Added three attacker models: External attackers, insider attackers, hybrid attackers. The user can verify if an architecture comforms with a policy in the presence of 1)             external attackers, 2) insider attackers, and 3) hybrid (colluding external and insider) attackers. The three new verification options can be found under the tab "VERIFY".
+    - In the policy specification page, the entity called "att" is added to the list of default entities (besides sp), to model the attacker(s).
+    - Improved verification speed.
+    - The file "Pol and arch files used in the manual v0.9.8.zip" contains the template files for the nested crypto, and attackers (in the folder "Examples-TEXTMODE").
+    - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
+    
 - v0.9.4: The earliest version that contains more details about the author. It is kept only for the record.
 - v0.9.4-blind : Used for running the files for DP3T and PEP-IMP examples in the paper.
 - v0.9.5-blind:  The same as v0.9.4-blind, but 
@@ -28,13 +36,7 @@ VERSION INFO:
     - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip).
     - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
 
-<b>Version 0.9.8 uploaded</b>:
-    - The tool now supports any number of layers of nested cryptographic functions/encryption inside a datatype.
-    - Added three attacker models: External attackers, insider attackers, hybrid attackers. The user can verify if an architecture comforms with a policy in the presence of 1)             external attackers, 2) insider attackers, and 3) hybrid (colluding external and insider) attackers. The three new verification options can be found under the tab "VERIFY".
-    - In the policy specification page, the entity called "att" is added to the list of default entities (besides sp), to model the attacker(s).
-    - Improved verification speed.
-    - The file "Pol and arch files used in the manual v0.9.8.zip" contains the template files for the nested crypto, and attackers (in the folder "Examples-TEXTMODE").
-    - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
+
 
 **VIDEOS (blind):** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
