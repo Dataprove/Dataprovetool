@@ -27,6 +27,49 @@ VERSION INFO:
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/features.png)
 
+**EXAMPLE VERIFICATION IN THE PRESENCE OF ATTACKERS:** 
+
+EXTERNAL ATTACKER CASE:
+
+Besides the following architecture, the external attackers who can eavesdrop the data transmission can have and link name with address. 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/exatt.png)
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/exattbutton.png)
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/exattverif.png)
+
+INSIDER ATTACKER CASE:
+
+Besides the following architecture, the insider attackers who can compromise benign entities can have and link name with address. 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/inatt.png)
+
+We set that the insider attacker(s) has access to/has full control over the benign entities to model that those entities have been compromised.  
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/inattrel.png)
+
+As a result we get: 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/inattverif.png)
+
+HYBRID ATTACKER CASE:
+
+Besides the following architecture, we check what happens if the insider attacker(s) shares data with the external attacker(s) :
+
+https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/hybatt.png
+
+We set that the hybrid attacker(s) has access to/has full control over the benign entities to model that those entities have been compromised.  
+Unlike the insider attackers case above, the service provider has not been compromised (att cannot control fully sp).
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/hybattrel.png)
+
+However, by colluding with the external attacker(s), the data captured during transmission can be used. 
+
+As a result we get: 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/hybattverif.png)
+
 **VIDEOS (blind):** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
