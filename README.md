@@ -15,28 +15,15 @@ The tool used in the verification of the files is <b>DataProVe-v0.9.8-blind.pyc 
 - The User Manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 VERSION INFO: 
-- <b>Version 0.9.8 uploaded</b>:
+- <b>Version 0.9.8 uploaded (June 8, 2021)</b>:
     - The tool supports any number of layers of nested cryptographic functions/encryption inside a datatype.
     - Added three attacker models: External attackers, insider attackers, hybrid attackers. The user can verify if an architecture comforms with a policy in the presence of 1)             external attackers, 2) insider attackers, and 3) hybrid (colluding external and insider) attackers. The three new verification options can be found under the tab "VERIFY".
     - In the policy specification page, the entity called "att" is added to the list of default entities (besides sp), to model the attacker(s).
     - Improved verification speed.
     - The file "Pol and arch files used in the manual v0.9.8.zip" contains the template files for the nested crypto, and attackers (in the folder "Examples-TEXTMODE").
     - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
-    
-- v0.9.4: The earliest version that contains more details about the author. It is kept only for the record.
-- v0.9.4-blind : Used for running the files for DP3T and PEP-IMP examples in the paper.
-- v0.9.5-blind:  The same as v0.9.4-blind, but 
-    - with improved message in the Data Possession Policy specification window (added the text "Y for Yes/Leave empty or N for No"), and 
-    - Minor changes with the content of the warning messages in the verification results window. Namely, in "v0.9.4-blind", the warning messages for usage consent show "CALCULATE" for both the CALCULATE and CREATE actions (hence, seems redundant) due to copy paste error. This has been corrected and warning messages for the CALCULATE and CREATE actions can be found separately in the verification results window in "v0.9.5-bind". The example files can be run with this version as well.      
-- v0.9.6-blind:
-    - Actions CALCULATEFROM(component,Datatype1,Datatype2) and CALCULATEFROMAT(component,Datatype1,Datatype2,Time(t)) are added to specify a piece of data can be calculated from another piece of data.
-    - Improved the notification text/presentation for the verification results.
-    - The TEXTMODE saving also includes the list of relationships between main and sub-components, which will be then loaded in the program when the arch .txt file is opened.
-    - Added more TEXTMODE examples in "Pol and Arch files used in the manual-v0.9.6.zip" inside DataProve-v0.9.6-all-in-one-blind.zip (including the example with CALCULATEFROMAT)
-    - Improved the user manual, make it more related to the version 0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip).
-    - DT3P and PEP-IMP specs. for v0.9.6 (can be found inside DataProve-v0.9.6-all-in-one-blind.zip). 
 
-
+**FEATURES SUPPORTED:**
 
 **VIDEOS (blind):** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
