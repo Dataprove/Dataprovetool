@@ -25,6 +25,8 @@ VERSION INFO:
 
 **FEATURES SUPPORTED:**
 
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/features.png)
+
 **VIDEOS (blind):** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
