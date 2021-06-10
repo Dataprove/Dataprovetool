@@ -31,7 +31,7 @@ VERSION INFO:
 
 EXTERNAL ATTACKER CASE:
 
-Besides the following architecture, the external attackers who can eavesdrop the data transmission can have and link name with address. 
+Besides the following architecture, the external attackers who can eavesdrop the data during transmission can have and link name with address. 
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/exatt.png)
 
