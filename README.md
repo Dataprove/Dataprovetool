@@ -27,6 +27,16 @@ VERSION INFO:
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/features.png)
 
+**EXAMPLE VERIFICATION IN THE BENIGN ENVIRONMENT (NO ATTACKERS):** 
+
+Besides the following architecture, the service provider (sp) can have and link name with address. 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/benign.png)
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/benignbutton.png)
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/benignverif.png)
+
 **EXAMPLE VERIFICATION IN THE PRESENCE OF ATTACKERS:** 
 
 EXTERNAL ATTACKER CASE:
