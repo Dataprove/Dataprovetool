@@ -57,7 +57,7 @@ HYBRID ATTACKER CASE:
 
 Besides the following architecture, we check what happens if the insider attacker(s) shares data with the external attacker(s) :
 
-https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/hybatt.png
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/hybatt.png)
 
 We set that the hybrid attacker(s) has access to/has full control over the benign entities to model that those entities have been compromised.  
 Unlike the insider attackers case above, the service provider has not been compromised (att cannot control fully sp).
