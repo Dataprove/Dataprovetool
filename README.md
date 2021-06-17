@@ -16,6 +16,7 @@ VERSION INFO:
     - Improved verification speed.
     - The file "v0.9.8-Pol and arch files in the manual.zip" contains the template files for the nested crypto, and attackers (in the folder "Examples-TEXTMODE").
     - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
+    - The user manual for v0.9.8 contains the updates regarding the attackers cases. 
 
 **FEATURES SUPPORTED:**
 
