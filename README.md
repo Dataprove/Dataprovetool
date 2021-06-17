@@ -23,6 +23,20 @@ VERSION INFO:
 
 **EXAMPLE VERIFICATION IN THE BENIGN ENVIRONMENT (NO ATTACKERS):** 
 
+We define an example policy that we will use for our next examples. In the policy, we define three data types, specifically: 1) name, 2) address, and 3) job (which we defined as UNIQUE, just for checking the unique linkability of name and address).
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/pol1.png)
+
+We select the default/pre-defined entity att (attacker) to specify its data possession and linkability sub-policies. Obviously, we do not allow the attacker to have name and address, and to link them “uniquely”. 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/pol2.png)
+
+The same data possession sub-policy is defined for address and job.
+
+And for linkability, we have: 
+
+![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/pol3.png)
+
 Besides the following architecture, the service provider (sp) can have and link name with address. 
 
 ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/benign.png)
