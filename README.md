@@ -8,7 +8,7 @@ DataProVe may be useful for education purposes as well, especially, where the su
 
 The verification engine of DataProVe is based on logic ("guided" resolution based proofs), combining both the so-called backward and forward search strategies.
 
-DataProVe comes with a graphical user interface, and the current version is written in Python.  
+DataProVe comes with GUI (graphical user interface), and the current version is written in Python.  
 
 The paper (long version) about the theoretical background of the tool can be read here: https://github.com/Dataprove/Dataprovetool/blob/main/Preprint%20-Blind.pdf.
 
