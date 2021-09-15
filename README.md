@@ -10,7 +10,7 @@ The verification engine of DataProVe is based on logic ("guided" resolution base
 
 DataProVe comes with a graphical user interface, and the current version is written in Python.  
 
-The paper (long version) about the theoretical background of the tool can be read here: ![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/features.png).
+The paper (long version) about the theoretical background of the tool can be read here: https://github.com/Dataprove/Dataprovetool/blob/main/Preprint%20-Blind.pdf.
 
 
 **HOW TO RUN:** 
