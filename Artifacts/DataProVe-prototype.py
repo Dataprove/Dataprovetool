@@ -6,7 +6,8 @@ Last update August 2021
 
 NOTE: 
 This code was written besides limited resources (time and man power) mainly to demonstrate what the 
-approach and the tool in the journal paper can be used for, and how the proposed approach can be implemented as an example.
+approach and the tool in the journal paper can be used for, and how the proposed approach can be 
+implemented as an example.
 
 The code is still in its "prototype/infancy stage". Hence, it has not been properly optimised (regarding 
 code efficiency and length). 
