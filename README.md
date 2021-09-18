@@ -19,12 +19,12 @@ The paper (long version) about the theoretical background of the tool can be rea
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 **VERSION INFO:** 
-- <b>Version 0.9.8-blind uploaded (June 8, 2021)</b>:
+- <b>Version 0.9.8-imp uploaded (Sept, 2021)</b>:
     - The tool supports any number of layers of nested cryptographic functions/encryption inside a datatype.
     - Added three attacker models: External attackers, insider attackers, hybrid attackers. The user can verify if an architecture comforms with a policy in the presence of 1)             external attackers, 2) insider attackers, and 3) hybrid (colluding external and insider) attackers. The three new verification options can be found under the tab "VERIFY".
     - In the policy specification page, the entity called "att" is added to the list of default entities (besides sp), to model the attacker(s).
     - Improved verification speed.
-    - The file "PDP3T & PEP-PT files for v0.9.8-blind.zip" contains the template files for DP3T and PEP-PT.
+    - The file "PDP3T & PEP-PT template files.zip" contains the template files for DP3T and PEP-PT.
     - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
     
 **FEATURES SUPPORTED:**
