@@ -16,7 +16,8 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 - The paper (long version) about the theoretical background of the tool can be read here: https://github.com/Dataprove/Dataprovetool/blob/main/Preprint%20-Blind.pdf.
 - The source code and full User Manual can be found in the Folder Artifacts: 
     - Source code (.py): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe-prototype.py
-    - User manual (.pdf):  
+    - User manual (.pdf):  https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf
+    - Template files (.zip): 
 
 
 **HOW TO RUN:** 
