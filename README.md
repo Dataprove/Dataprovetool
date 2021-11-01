@@ -1,7 +1,7 @@
 
 **INTRODUCTION:**
 
-In the DataProVe framework, users can specify a high-level data protection (or privacy) policy and a system architecture, then verify the conformance between the specified architecture and the high-level policy.  
+With DataProVe, users can specify a high-level data protection (or privacy) policy and a system architecture, then verify the conformance between the specified architecture and the high-level policy.  
 
 The main goal of the framework is to help system designers at the higher level (compared to other tools that mainly focus on the protocol/implementation or code levels.), such as with the policy and architecture design. This step can be important to spot high-level design flaws early, before going ahead with the lower level system specification. 
 
@@ -58,6 +58,15 @@ This section provides a simple example to help the user understand how to use th
 **Step 2:** Choosing the option “Specify a New Data Protection Policy”, the users will see a blue frame where they can specify their policy from scratch. 
 
 **Step 3 (Entities):** By default, there are two (built-in) entities, the service provider (sp), and the attacker (att). Let’s add two more entities for the smart metering service: the meter (meter) the customer (cust), and the third party (third).    
+
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard03.png" width=70% height=70%>
+
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard04.png" width=70% height=70%>
+
+**Step 4 (Data types):** The next step is to define the data types supported by the service. For simplicity, we define two data types: 
+1. Personal information (personal) that represents name, address, email, and phone number.   
+2. Energy reading (energy) that covers gas, electric. 
+
 
 
 **DEMO VIDEOS:** 
