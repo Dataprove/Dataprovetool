@@ -39,10 +39,10 @@ In this frame, the options and features of the tool can be found in the menu bar
 4. Options for conformance verification. 
 
 **USER INPUTS (INTERACTION WITH THE TOOL)**
-    1. **Policy**: The users can input their policy related parameters and settings directly in GUI policy specification page (blue frame). 
-    2. **Architecture GUI mode**: The user can specify their graphical architectures using the options add component in the menu bar. 
-        The architecture actions can be given in the textboxes. 
-    3. **Architecture textual mode**: Using the launch text editor option in the menu bar, the user opens a textbox where they can input each architecture action line by line. The           content of this textbox area can be freely modified. 
+1. **Policy**: The users can input their policy related parameters and settings directly in GUI policy specification page (blue frame). 
+2. **Architecture GUI mode**: The user can specify their graphical architectures using the options add component in the menu bar. The architecture actions can be given in the textboxes. 
+3. **Architecture textual mode**: Using the launch text editor option in the menu bar, the user opens a textbox where they can input each architecture action line by line. The      
+content of this textbox area can be freely modified. 
 
 
 
