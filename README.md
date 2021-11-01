@@ -32,7 +32,7 @@ The tool requires
 
 After launching the tool, the first thing the user will see is a frame with a (light) red area. This is the architecture specification page, where the user can either "draw" a graphical architecture by adding the main and sub-components and lines that connect the components or launch a text editor.
 
-![alt text][width = 100](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard01.png)
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard01.png" width=50% height=50%>
 
 In this frame, the options and features of the tool can be found in the menu bar (at the top left corner). The options are organised under the following tabs: 
 1. Policy specification options
