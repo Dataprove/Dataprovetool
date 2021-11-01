@@ -7,7 +7,7 @@ The main goal of DataProVe is to help system designers at the higher level (comp
 
 DataProVe may be useful for education purposes as well, especially, where the subject is about personal data protection or privacy.  
 
-The research on DataProVe is led by Dr. Vinh Thong Ta (at Edge Hill University, UK, tav at edgehill dot ac dot uk). 
+The research on DataProVe is led by Dr. Vinh Thong Ta (at Edge Hill University, UK, contact: tav at edgehill dot ac dot uk). 
 
 The verification engine of DataProVe is based on logic ("guided" resolution based proofs), combining both the so-called backward and forward search strategies.
 
