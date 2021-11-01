@@ -145,12 +145,20 @@ TEXTUAL MODE: Under the ARCHITECTURE-TEXTMODE tab, we launch the text editor, an
 
 Click “SAVE CONTENT”. The architecture in text mode needs to save before conformance verification. 
 
-The next step is to set the relationship between the entities sp and meter, and cust and meter. Under the tab “ARCHITECTURE-TEXTMODE”, we choose “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, which opens a window where we can provide two lines: sp:meter and cust:meter. This means that sp and cust have access to the reading of meter.<br/><br/>
+The next step is to set the relationship between the entities sp and meter, and cust and meter. Under the tab “ARCHITECTURE-TEXTMODE”, we choose “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, which opens a window where we can provide two lines: sp:meter and cust:meter. This means that sp and cust have access to the reading of meter.<br/>
 
 <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard17b.png" width=55% height=55%><br/>
 
 Save the architecture: Under “ARCHITECTURE-TEXTMODE” => “SAVE the Architecture (Text)”, the user can save the architecture for running a verification, reviewing, and modifying it later. 
-    
+
+**Step 7 (Conformance verification):**     
+
+Once we are ready with the policy and architecture specifications, we can run the conformance verification. We can choose among four options. 
+1. Run the verification without the presence of any attacker (e.g., the entity att is ignored).  
+
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard21.png" width=65% height=65%><br/>
+
+
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
