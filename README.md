@@ -59,14 +59,19 @@ This section provides a simple example to help the user understand how to use th
 
 **Step 3 (Entities):** By default, there are two (built-in) entities, the service provider (sp), and the attacker (att). Let’s add two more entities for the smart metering service: the meter (meter) the customer (cust), and the third party (third).    
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard03.png" width=70% height=70%>
-
 <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard04.png" width=70% height=70%>
+
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard03.png" width=70% height=70%>
 
 **Step 4 (Data types):** The next step is to define the data types supported by the service. For simplicity, we define two data types: 
 1. Personal information (personal) that represents name, address, email, and phone number.   
 2. Energy reading (energy) that covers gas, electric. 
 
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard05.png" width=70% height=70%>
+
+Step 5 (Sub-policies): Now, we can start our sub-policy specifications for each data type.  
+1.	For the data type personal (choose personal in the tab above, then click on “Data Collection”): 
+    a.	the collection sub-policy is (Y, {create:account}), which means that consent is required for collecting this type of data and the purpose of collection is to create an account.
 
 
 **DEMO VIDEOS:** 
