@@ -47,7 +47,17 @@ In this frame, the options and features of the tool can be found in the menu bar
 
 
 
+**A WALKTHROUGH EXAMPLE**
 
+This section provides a simple example to help the user understand how to use the tool step by step. The example is based on a simple smart metering system, where the service provider (sp) collects gas and electric readings, and calculate the bill based on those.
+
+**Step 1:** After launching the tool, the user will see the architecture specification page (a red colour frame).  
+
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard02.png" width=70% height=70%>
+
+**Step 2:** Choosing the option “Specify a New Data Protection Policy”, the users will see a blue frame where they can specify their policy from scratch. 
+
+**Step 3 (Entities):** By default, there are two (built-in) entities, the service provider (sp), and the attacker (att). Let’s add two more entities for the smart metering service: the meter (meter) the customer (cust), and the third party (third).    
 
 
 **DEMO VIDEOS:** 
