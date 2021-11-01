@@ -55,6 +55,8 @@ In this frame, the options and features of the tool can be found in the menu bar
 
 **A WALKTHROUGH EXAMPLE**
 
+The files related to this example can be found in the folder https://github.com/Dataprove/Dataprovetool/tree/main/Walkthrough%20example%20files.
+
 This section provides a simple example to help the user understand how to use the tool step by step. The example is based on a simple smart metering system, where the service provider (sp) collects gas and electric readings, and calculate the bill based on those.
 
 **Step 1:** After launching the tool, the user will see the architecture specification page (a red colour frame).  
