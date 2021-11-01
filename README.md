@@ -156,29 +156,31 @@ Save the architecture: Under “ARCHITECTURE-TEXTMODE” => “SAVE the Architec
 Once we are ready with the policy and architecture specifications, we can run the conformance verification. We can choose among four options. 
 1. Run the verification without the presence of any attacker (e.g., the entity att is ignored).  
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard21.png" width=65% height=65%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard21.png" width=55% height=55%><br/>
 
 2. Run the verification to check if the has and link sub-policies are violated assuming the external attacker(s).<br/><br/>
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard22.png" width=65% height=65%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard22.png" width=55% height=55%><br/>
 
 Since the messages exchanged are unencrypted, the external attacker who eavesdrop on the communication can obtain personal, energy and link personal to energy due to the bill document (BillDoc). 
 
 3. Run the verification to check if the has and link sub-policies are violated assuming (only) the insider attacker(s).
 
-To verify against insider attackers, we need to define which entity/component has been compromised by the attacker (that has full access to the compromised entity). For example, we specify that the attacker has access to meter. 
+    To verify against insider attackers, we need to define which entity/component has been compromised by the attacker (that has full access to the compromised entity). For example, we specify that the attacker has access to meter. 
 
-Under “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, we add: att:meter.  
+    Under “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, we add: att:meter.  
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard23.png" width=65% height=65%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard23.png" width=55% height=55%><br/>
 
-As the verification result, we get that the insider attacker only have access to energy (because of the compromised meter), but not to personal. 
+    As the verification result, we get that the insider attacker only have access to energy (because of the compromised meter), but not to personal. 
+    
+    img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard24.png" width=65% height=65%><br/>
 
 4. Run the verification to check if the has and link sub-policies are violated assuming the hybrid attacker(s).
   
-The hybrid attacker case is the combination of the external and insider attackers.
+    The hybrid attacker case is the combination of the external and insider attackers.
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard24.png" width=65% height=65%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard25.png" width=65% height=65%><br/>
 
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
