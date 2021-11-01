@@ -69,9 +69,11 @@ This section provides a simple example to help the user understand how to use th
 
 <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard05.png" width=70% height=70%>
 
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard06.png" width=70% height=70%>
+
 Step 5 (Sub-policies): Now, we can start our sub-policy specifications for each data type.  
 1.	For the data type personal (choose personal in the tab above, then click on “Data Collection”): 
-    a.	the collection sub-policy is (Y, {create:account}), which means that consent is required for collecting this type of data and the purpose of collection is to create an account.
+    1.	the collection sub-policy is (Y, {create:account}), which means that consent is required for collecting this type of data and the purpose of collection is to create an account.
 
 
 **DEMO VIDEOS:** 
