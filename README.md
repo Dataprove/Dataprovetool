@@ -90,6 +90,17 @@ This section provides a simple example to help the user understand how to use th
     
      <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard10.png" width=65% height=65%><br/>
 
+    5.  For the data transfer policy, we do not allow personal and energy to be forwarded. Hence, the transfer sub-policy is empty. 
+    6.  The has sub-policy is {sp, meter, cust}, which means that only sp, meter and cust have the right to access this type of data. This also means that third and att do not have the right to access this type of data.  <br/><br/>
+    
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard11.png" width=65% height=65%>
+    
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard12.png" width=65% height=65%>
+    
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard13.png" width=65% height=65%><br/>
+    
+    8.  The link sub-policy (permit) is {(sp, energy), (cust, energy)}, which means that only sp and cust have the right to link personal with energy (i.e., they know the energy consumption for a given person/address).  <br/><br/>
+    
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
