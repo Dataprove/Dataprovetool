@@ -182,6 +182,36 @@ Since the messages exchanged are unencrypted, the external attacker who eavesdro
 
     <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard25.png" width=65% height=65%><br/>
 
+
+**Step 8 (Optional):** 
+
+We can make changes to our architecture so that it is secured against external attackers, by applying encryption on the exchanged messages. To do this, we change the actions (directly in the text editor) to, for example:
+
+- RECEIVEAT(sp,Senc(energy,key),Time(t1))
+- RECEIVEAT(sp,Senc(personal,key),Time(t2))
+- RECEIVEAT(cust,Senc(BillDoc(personal,energy,BillAmount(energy)),key),Time(t9))
+- RECEIVEAT(sp,CConsent(energy,sp),Time(t1))
+- RECEIVEAT(sp,CConsent(personal,sp),Time(t2))
+- RECEIVEAT(sp,UConsent(energy,sp),Time(t1))
+- RECEIVEAT(sp,UConsent(personal,sp),Time(t2))
+- RECEIVEAT(sp,SConsent(energy,mainstorage),Time(t3))
+- RECEIVEAT(sp,SConsent(personal,mainstorage),Time(t4))
+- STOREAT(mainstorage,energy,Time(t3))
+- STOREAT(mainstorage,personal,Time(t4))
+- DELETEWITHIN(mainstorage,energy,Time(2y))
+- DELETEWITHIN(mainstorage,personal,Time(2y))
+- CREATEAT(sp,Account(personal),Time(t2))
+- CREATEAT(sp,BillDoc(personal,energy,BillAmount(energy)),Time(t1))
+- CALCULATEAT(sp,BillAmount(energy),Time(t1))
+- CALCULATEAT(meter,energy,Time(t8))
+- OWN(cust,personal)
+- OWN(cust,key)
+- OWN(sp,key)
+
+After clicking “SAVE CONTENT”, we can run the verification against external attackers to see the difference in the result. 
+
+
+
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
 - Video about the Textmode examples: https://youtu.be/uBKVCnsok-c
