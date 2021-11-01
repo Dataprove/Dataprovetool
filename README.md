@@ -210,6 +210,7 @@ We can make changes to our architecture so that it is secured against external a
 
 After clicking “SAVE CONTENT”, we can run the verification against external attackers to see the difference in the result. 
 
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard26.png" width=65% height=65%><br/>
 
 
 **DEMO VIDEOS:** 
