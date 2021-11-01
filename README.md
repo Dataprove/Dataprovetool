@@ -74,6 +74,10 @@ This section provides a simple example to help the user understand how to use th
 Step 5 (Sub-policies): Now, we can start our sub-policy specifications for each data type.  
 1.	For the data type personal (choose personal in the tab above, then click on “Data Collection”): 
     1.	the collection sub-policy is (Y, {create:account}), which means that consent is required for collecting this type of data and the purpose of collection is to create an account.
+    
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard07.png" width=70% height=70%>
+    
+    1. The usage sub-policy is (Y,{create:billdoc}), which means that consent is required to use personal info, with the purpose of creating a bill document. 
 
 
 **DEMO VIDEOS:** 
