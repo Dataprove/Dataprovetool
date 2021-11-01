@@ -174,7 +174,7 @@ Since the messages exchanged are unencrypted, the external attacker who eavesdro
 
     As the verification result, we get that the insider attacker only have access to energy (because of the compromised meter), but not to personal. 
     
-    img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard24.png" width=65% height=65%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard24.png" width=65% height=65%><br/>
 
 4. Run the verification to check if the has and link sub-policies are violated assuming the hybrid attacker(s).
   
