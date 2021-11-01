@@ -32,7 +32,7 @@ The tool requires
 After launching the tool, the first thing the user will see is a frame with a (light) red area. This is the architecture specification page, where the user can either "draw" a graphical architecture by adding the main and sub-components and lines that connect the components or launch a text editor.
 
 In this frame, the options and features of the tool can be found in the menu bar (at the top left corner). The options are organised under the following tabs: 
-    1.	policy specification options
+1. policy specification options
     2.	options for specifying architectures in GUI mode, 
     3.	options for specifying architectures in textual mode, and 
     4.	options for conformance verification. 
