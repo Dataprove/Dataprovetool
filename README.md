@@ -17,7 +17,7 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 - The source code and full User Manual can be found in the Folder Artifacts: 
     - Source code (.py): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe-prototype.py
     - User manual (.pdf):  https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf
-    - Template files (.zip): 
+    - Template files (.zip): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip
 
 
 **HOW TO RUN:** 
