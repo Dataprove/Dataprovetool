@@ -86,7 +86,7 @@ This section provides a simple example to help the user understand how to use th
 
      <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard09.png" width=65% height=65%>
 
-    4. The retention sub-policy is ({mainstorage},2y), which means that this type of data is only kept in the main storage at most for 2 years. </br>
+    4. The retention sub-policy is ({mainstorage},2y), which means that this type of data is only kept in the main storage at most for 2 years. <br/>
     
      <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard10.png" width=65% height=65%>
 
