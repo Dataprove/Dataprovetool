@@ -78,14 +78,18 @@ This section provides a simple example to help the user understand how to use th
 
     <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard07.png" width=65% height=65%>
     
-    1. The usage sub-policy is (Y,{create:billdoc}), which means that consent is required to use personal info, with the purpose of creating a bill document. 
+    2. The usage sub-policy is (Y,{create:billdoc}), which means that consent is required to use personal info, with the purpose of creating a bill document. 
 
 
     <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard08.png" width=65% height=65%>
 
-    1. The storage sub-policy is (Y,{mainstorage}), which means that the consent is required for data storage. In addition, the data is stored in the main storage place(s) of the service provider. 
+    3. The storage sub-policy is (Y,{mainstorage}), which means that the consent is required for data storage. In addition, the data is stored in the main storage place(s) of the service provider. 
 
-    1. The retention sub-policy is ({mainstorage},2y), which means that this type of data is only kept in the main storage at most for 2 years.  
+     <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard09.png" width=65% height=65%>
+
+    4. The retention sub-policy is ({mainstorage},2y), which means that this type of data is only kept in the main storage at most for 2 years.  
+    
+     <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard10.png" width=65% height=65%>
 
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
