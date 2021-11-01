@@ -113,35 +113,36 @@ This section provides a simple example to help the user understand how to use th
     
     9. For the data type energy, we define the similar sub-policies like the previous data type, with one exception. Specifically, in the data collection and usage sub-policies, energy is collected and used for the purpose of calculating the bill amount ({calculate:billamount}).  <br/><br/>
   
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard18.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard19.png" width=55% height=55%><br/>
     
-    10. Save the policy: Under “POLICY” => “SAVE the Policy”, the user can save the policy for running a verification, reviewing, and modifying it later. 
+    10. **Save the policy**: Under “POLICY” => “SAVE the Policy”, the user can save the policy for running a verification, reviewing, and modifying it later. 
 
 **Step 6 (Architecture specification):** Once we finished with the policy specification, we can design and specify the architecture. 
 
 We can specify our architecture for the smart metering service either in GUI or Text mode. Let’s start with the Text mode. 
 
 TEXTUAL MODE: Under the ARCHITECTURE-TEXTMODE tab, we launch the text editor, and start adding the actions line by line. 
+- RECEIVEAT(sp,energy,Time(t1))
+- RECEIVEAT(sp,personal,Time(t2))
+- RECEIVEAT(sp,CConsent(energy,sp),Time(t1))
+- RECEIVEAT(sp,CConsent(personal,sp),Time(t2))
+- RECEIVEAT(sp,UConsent(energy,sp),Time(t1))
+- RECEIVEAT(sp,UConsent(personal,sp),Time(t2))
+- RECEIVEAT(sp,SConsent(energy,mainstorage),Time(t3))
+- RECEIVEAT(sp,SConsent(personal,mainstorage),Time(t4))
+- STOREAT(mainstorage,energy,Time(t3))
+- STOREAT(mainstorage,personal,Time(t4))
+- DELETEWITHIN(mainstorage,energy,Time(2y))
+- DELETEWITHIN(mainstorage,personal,Time(2y))
+- CREATEAT(sp,Account(personal),Time(t2))
+- CREATEAT(sp,BillDoc(personal,energy,BillAmount(energy)),Time(t1))
+- CALCULATEAT(sp,BillAmount(energy),Time(t1))
+- CALCULATEAT(meter,energy,Time(t8))
+- OWN(cust,personal)
+- RECEIVEAT(cust,BillDoc(personal,energy,BillAmount(energy)),Time(t9))<br/><br/>
 
-•	RECEIVEAT(sp,energy,Time(t1))
-•	RECEIVEAT(sp,personal,Time(t2))
-•	RECEIVEAT(sp,CConsent(energy,sp),Time(t1))
-•	RECEIVEAT(sp,CConsent(personal,sp),Time(t2))
-•	RECEIVEAT(sp,UConsent(energy,sp),Time(t1))
-•	RECEIVEAT(sp,UConsent(personal,sp),Time(t2))
-•	RECEIVEAT(sp,SConsent(energy,mainstorage),Time(t3))
-•	RECEIVEAT(sp,SConsent(personal,mainstorage),Time(t4))
-•	STOREAT(mainstorage,energy,Time(t3))
-•	STOREAT(mainstorage,personal,Time(t4))
-•	DELETEWITHIN(mainstorage,energy,Time(2y))
-•	DELETEWITHIN(mainstorage,personal,Time(2y))
-•	CREATEAT(sp,Account(personal),Time(t2))
-•	CREATEAT(sp,BillDoc(personal,energy,BillAmount(energy)),Time(t1))
-•	CALCULATEAT(sp,BillAmount(energy),Time(t1))
-•	CALCULATEAT(meter,energy,Time(t8))
-•	OWN(cust,personal)
-•	RECEIVEAT(cust,BillDoc(personal,energy,BillAmount(energy)),Time(t9))
-
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard18.png" width=55% height=55%><br/>
+    
     
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
