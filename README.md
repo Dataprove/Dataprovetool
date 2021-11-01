@@ -3,13 +3,15 @@
 
 With DataProVe, users can specify a high-level data protection (or privacy) policy and a system architecture, then verify the conformance between the specified architecture and the high-level policy.  
 
-The main goal of the framework is to help system designers at the higher level (compared to other tools that mainly focus on the protocol/implementation or code levels.), such as with the policy and architecture design. This step can be important to spot high-level design flaws early, before going ahead with the lower level system specification. 
+The main goal of DataProVe is to help system designers at the higher level (compared to other tools that mainly focus on the protocol/implementation or code levels.), such as with the policy and architecture design. This step can be important to spot high-level design flaws early, before going ahead with the lower level system specification. 
 
 DataProVe may be useful for education purposes as well, especially, where the subject is about personal data protection or privacy.  
 
+The research on DataProVe is led by Dr. Vinh Thong Ta (at Edge Hill University, UK, tav at edgehill dot ac dot uk). 
+
 The verification engine of DataProVe is based on logic ("guided" resolution based proofs), combining both the so-called backward and forward search strategies.
 
-DataProVe comes with GUI (graphical user interface), and the current version is written in Python. The research on DataProVe is led by Dr. Vinh Thong Ta (at Edge Hill University, UK, tav at edgehill dot ac dot uk). 
+DataProVe comes with GUI (graphical user interface), and the current version is written in Python. 
 
 - The paper (long version) about the theoretical background of the tool can be read here: https://github.com/Dataprove/Dataprovetool/blob/main/Preprint%20-Blind.pdf.
 - The source code and full User Manual can be found in the Folder Artifacts (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe-prototype.py) 
