@@ -1,4 +1,5 @@
 
+**INTRODUCTION:**
 
 In the DataProVe framework, users can specify a high-level data protection (or privacy) policy and a system architecture, then verify the conformance between the specified architecture and the high-level policy.  
 
@@ -15,21 +16,36 @@ The paper (long version) about the theoretical background of the tool can be rea
 
 **HOW TO RUN:** 
 - DataProVe requires Python 3.8 or newer to run correctly. 
-- To run it, just double click on the file (Windows OS) or use the command <b>python DataProVe-v0.9.8-blind.pyc </b> (in Linux and Mac OS)
+- To run it, just double click on the file (Windows OS) or use the command <b>python DataProVe-vx.y.z.pyc </b> 
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
-**VERSION INFO:** 
-- <b>Version 0.9.8-imp uploaded (Sept, 2021)</b>:
-    - The tool supports any number of layers of nested cryptographic functions/encryption inside a datatype.
-    - Added three attacker models: External attackers, insider attackers, hybrid attackers. The user can verify if an architecture comforms with a policy in the presence of 1)             external attackers, 2) insider attackers, and 3) hybrid (colluding external and insider) attackers. The three new verification options can be found under the tab "VERIFY".
-    - In the policy specification page, the entity called "att" is added to the list of default entities (besides sp), to model the attacker(s).
-    - Improved verification speed.
-    - The file "PDP3T & PEP-PT template files.zip" contains the template files for DP3T and PEP-PT.
-    - To specify that the insider attackers have compromised the entities E1,...,En, in the menutab "SPECIFY THE RELATION BETWEEN THE MAIN COMPONENTS AND THE SUB-COMPONENTS", provide      att:E1,...,En.
-    
-**FEATURES SUPPORTED:**
+**SUPPORTED OPERATING SYSTEMS:** 
+DataProVe was only thoroughly tested on Windows 7/10. This version of the tool has not been tested on macOS or Linux. 
 
-![alt text](https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/features.png)
+**SOFTWARE DEPENDENCIES:**
+The tool requires
+- Python 3.8 or higher
+- The tkinter package (python-tk) that supports GUI features. 
+- Further packages required: time, webbrowser, json, itertools, re.
+
+**FEATURES AND OPTIONS SELECTIONS**
+After launching the tool, the first thing the user will see is a frame with a (light) red area. This is the architecture specification page, where the user can either "draw" a graphical architecture by adding the main and sub-components and lines that connect the components or launch a text editor.
+
+In this frame, the options and features of the tool can be found in the menu bar (at the top left corner). The options are organised under the following tabs: 
+    1.	policy specification options
+    2.	options for specifying architectures in GUI mode, 
+    3.	options for specifying architectures in textual mode, and 
+    4.	options for conformance verification. 
+
+**USER INPUTS (INTERACTION WITH THE TOOL)**
+    1. **Policy**: The users can input their policy related parameters and settings directly in GUI policy specification page (blue frame). 
+    2. **Architecture GUI mode**: The user can specify their graphical architectures using the options add component in the menu bar. 
+        The architecture actions can be given in the textboxes. 
+    3. **Architecture textual mode**: Using the launch text editor option in the menu bar, the user opens a textbox where they can input each architecture action line by line. The           content of this textbox area can be freely modified. 
+
+
+
+
 
 
 **DEMO VIDEOS:** 
