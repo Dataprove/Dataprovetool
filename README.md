@@ -26,7 +26,7 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 **SUPPORTED OPERATING SYSTEMS:** 
-- DataProVe was only thoroughly tested on Windows 7/10. The current version of the tool has not been tested on macOS or Linux. 
+- DataProVe was only thoroughly tested on Windows 7/10. The current version of the tool has not been tested on macOS or Linux yet. 
 
 **SOFTWARE DEPENDENCIES:**
 The tool requires
