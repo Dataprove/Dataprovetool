@@ -20,7 +20,7 @@ The paper (long version) about the theoretical background of the tool can be rea
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 **SUPPORTED OPERATING SYSTEMS:** 
-DataProVe was only thoroughly tested on Windows 7/10. This version of the tool has not been tested on macOS or Linux. 
+- DataProVe was only thoroughly tested on Windows 7/10. This version of the tool has not been tested on macOS or Linux. 
 
 **SOFTWARE DEPENDENCIES:**
 The tool requires
@@ -29,6 +29,7 @@ The tool requires
 - Further packages required: time, webbrowser, json, itertools, re.
 
 **FEATURES AND OPTIONS SELECTIONS**
+
 After launching the tool, the first thing the user will see is a frame with a (light) red area. This is the architecture specification page, where the user can either "draw" a graphical architecture by adding the main and sub-components and lines that connect the components or launch a text editor.
 
 In this frame, the options and features of the tool can be found in the menu bar (at the top left corner). The options are organised under the following tabs: 
