@@ -101,27 +101,27 @@ This section provides a simple example to help the user understand how to use th
     5.  For the data transfer policy, we do not allow personal and energy to be forwarded. Hence, the transfer sub-policy is empty. 
     6.  The has sub-policy is {sp, meter, cust}, which means that only sp, meter and cust have the right to access this type of data. This also means that third and att do not have the right to access this type of data.  <br/><br/>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard11.png" width=55% height=55%>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard11.png" width=65% height=65%>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard12.png" width=55% height=55%>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard12.png" width=65% height=65%>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard13.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard13.png" width=65% height=65%><br/>
     
     7. The link sub-policy (permit) is {(sp, energy), (cust, energy)}, which means that only sp and cust have the right to link personal with energy (i.e., they know the energy consumption for a given person/address).  <br/><br/>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard14.png" width=55% height=55%>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard14.png" width=65% height=65%>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard15.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard15.png" width=65% height=65%><br/>
     
     8. The link sub-policy (forbid) is {(third, energy), (att, energy)}, which means that the third party and the attackers do not have the right to link personal with energy.  <br/><br/>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard16.png" width=55% height=55%>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard16.png" width=65% height=65%>
     
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard17.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard17.png" width=65% height=65%><br/>
     
     9. For the data type energy, we define the similar sub-policies like the previous data type, with one exception. Specifically, in the data collection and usage sub-policies, energy is collected and used for the purpose of calculating the bill amount ({calculate:billamount}).  <br/><br/>
   
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard19.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard19.png" width=65% height=65%><br/>
     
     10. **Save the policy**: Under “POLICY” => “SAVE the Policy”, the user can save the policy for running a verification, reviewing, and modifying it later. 
 
@@ -149,13 +149,13 @@ TEXTUAL MODE: Under the ARCHITECTURE-TEXTMODE tab, we launch the text editor, an
 - OWN(cust,personal)
 - RECEIVEAT(cust,BillDoc(personal,energy,BillAmount(energy)),Time(t9))<br/><br/>
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard18.png" width=55% height=55%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard18.png" width=65% height=65%><br/>
 
 Click “SAVE CONTENT”. The architecture in text mode needs to save before conformance verification. 
 
 The next step is to set the relationship between the entities sp and meter, and cust and meter. Under the tab “ARCHITECTURE-TEXTMODE”, we choose “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, which opens a window where we can provide two lines: sp:meter and cust:meter. This means that sp and cust have access to the reading of meter.<br/>
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard17b.png" width=55% height=55%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard17b.png" width=65% height=65%><br/>
 
 Save the architecture: Under “ARCHITECTURE-TEXTMODE” => “SAVE the Architecture (Text)”, the user can save the architecture for running a verification, reviewing, and modifying it later. 
 
@@ -164,11 +164,11 @@ Save the architecture: Under “ARCHITECTURE-TEXTMODE” => “SAVE the Architec
 Once we are ready with the policy and architecture specifications, we can run the conformance verification. We can choose among four options. 
 1. Run the verification without the presence of any attacker (e.g., the entity att is ignored).  
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard21.png" width=55% height=55%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard21.png" width=65% height=65%><br/>
 
 2. Run the verification to check if the has and link sub-policies are violated assuming the external attacker(s).<br/><br/>
 
-<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard22.png" width=55% height=55%><br/>
+<img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard22.png" width=65% height=65%><br/>
 
 Since the messages exchanged are unencrypted, the external attacker who eavesdrop on the communication can obtain personal, energy and link personal to energy due to the bill document (BillDoc). 
 
@@ -178,7 +178,7 @@ Since the messages exchanged are unencrypted, the external attacker who eavesdro
 
     Under “SPECIFY THE RELATIONSHIP BETWEEN THE MAIN AND SUB-COMPONENTS (TEXT)”, we add: att:meter.  
 
-    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard23.png" width=55% height=55%><br/>
+    <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard23.png" width=65% height=65%><br/>
 
     As the verification result, we get that the insider attacker only have access to energy (because of the compromised meter), but not to personal. 
     
@@ -220,6 +220,9 @@ After clicking “SAVE CONTENT”, we can run the verification against external 
 
 <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard26.png" width=65% height=65%><br/>
 
+**ADDITIONAL APPLICATION EXAMPLES:**
+- More examples can be found in the user manual, starting from page 39 (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf). 
+- The template files for those examples can be found in the "Pol and arch files used in the manual v.0.9.8.zip" file (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip).  
 
 **DEMO VIDEOS:** 
 - Video about the GUI examples : https://youtu.be/0UlmTfseTUw
