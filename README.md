@@ -22,7 +22,9 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 
 **HOW TO RUN:** 
 - DataProVe requires Python 3.8 or newer to run correctly. 
-- To run it, just double click on the file (Windows OS) or use the command <b>python DataProVe-vx.y.z.pyc </b> 
+- To run it, just double click on the file (Windows OS) or use the command 
+  - <b>python DataProVe-vx.y.z.pyc </b> for the pyc file, or
+  - <b>python DataProVe-prototype.py </b> for running directly from the source file. 
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
 **SUPPORTED OPERATING SYSTEMS:** 
@@ -222,6 +224,7 @@ After clicking “SAVE CONTENT”, we can run the verification against external 
 
 **ADDITIONAL APPLICATION EXAMPLES:**
 - More examples can be found in the user manual, starting from page 39 (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf). 
+- Each example presents the settings and specification guideline for different sub-policies. We also provide examples for architectures with cryptographic primitives, and verification against different attacker types. 
 - The template files for those examples can be found in the "Pol and arch files used in the manual v.0.9.8.zip" file (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip).  
 
 **DEMO VIDEOS:** 
