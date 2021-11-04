@@ -16,7 +16,7 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 - The paper (long version) about the theoretical background of the tool can be read here: https://github.com/Dataprove/Dataprovetool/blob/main/Preprint%20-Blind.pdf.
 - The source code and full User Manual can be found in the folder Artifacts: 
     - Source code (.py): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe-prototype.py
-    - User manual (.pdf):  https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf
+    - User manual (.pdf):  https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual%20nov%202021.pdf
     - Template files (.zip): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip
 
 
@@ -223,7 +223,7 @@ After clicking “SAVE CONTENT”, we can run the verification against external 
 <img src="https://github.com/Dataprove/Dataprovetool/blob/main/Pictures%20for%20user%20manual/Clipboard26.png" width=65% height=65%><br/>
 
 **ADDITIONAL APPLICATION EXAMPLES:**
-- More examples can be found in the user manual, starting from page 39 (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual.pdf). 
+- More examples can be found in the user manual, starting from page 39 (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual%20nov%202021.pdf). 
 - Each example presents the settings and specification guideline for different sub-policies. We also provide examples for architectures with cryptographic primitives, and verification against different attacker types. 
 - The template files for those examples can be found in the "Pol and arch files used in the manual v.0.9.8.zip" file (https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip).  
 
