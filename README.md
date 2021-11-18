@@ -23,7 +23,7 @@ DataProVe comes with GUI (graphical user interface), and the current version is 
 **HOW TO RUN:** 
 - DataProVe requires Python 3.8 or newer to run correctly. 
 - To run it, just double click on the file (Windows OS) or use the command 
-  - <b>python DataProVe-vx.y.z.pyc </b> for the pyc file, or
+  - <b>python DataProVe-vx.y.z.pyc </b> (where vx.y.z represents the current version number) for the pyc file, or
   - <b>python DataProVe-prototype.py </b> for running directly from the source file. 
 - The user manual contains detailed user manual and a wide range of examples (including GUI-based examples and Text Mode examples).
 
