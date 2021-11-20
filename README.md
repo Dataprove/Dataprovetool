@@ -13,7 +13,7 @@ The verification engine of DataProVe is based on logic ("guided" resolution base
 
 DataProVe comes with GUI (graphical user interface), and the current version is written in Python. 
 
-- The source code and full User Manual can be found in the folder Artifacts: 
+- The source code and full user manual can be found in the folder Artifacts: 
     - Source code (.py): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe-prototype.py
     - User manual (.pdf):  https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/DataProVe%20Manual%20nov%202021.pdf
     - Template files (.zip): https://github.com/Dataprove/Dataprovetool/blob/main/Artifacts/Pol%20and%20arch%20files%20used%20in%20the%20manual%20v0.9.8.zip
